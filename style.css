@@ -235,11 +235,12 @@ li{
     right: 35px;
     }
     .lines{
-        font-size: 50px;
+        font-size: 125px;
         cursor: pointer;
         margin-top: 1%;
-        margin-left: 1%;
+        margin-left: 6.5%;
         display: block;
+        color: white;
       }
     .menu-bar{
         display: none;
