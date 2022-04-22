@@ -227,7 +227,7 @@ li{
   .lines{
     display: none;
   }
-  @media screen and (max-width: 768px){
+  @media screen and (max-width: 1000px){
     .overlay a {font-size: 20px}
     .overlay .closebtn {
     font-size: 40px;
