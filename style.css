@@ -246,6 +246,14 @@ li{
         
         
         }
+    .card h1{
+        color: white; 
+        font-size: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        padding: 10px; 
+            
+        }
 }
 
 
