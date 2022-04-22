@@ -227,8 +227,10 @@ li{
   .lines{
     display: none;
   }
-  
-  @media screen and (max-width: 768px) {
+  @media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
     .overlay a {font-size: 20px}
     .overlay .closebtn {
     font-size: 40px;
@@ -247,7 +249,7 @@ li{
         
         
         }
+}
 
-  }
 
 
