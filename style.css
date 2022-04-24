@@ -239,6 +239,9 @@ li{
         display: block;
         color: white;
       }
+    .logo{
+        display: none;
+    }
     .menu-bar{
         display: none;
         
