@@ -195,7 +195,7 @@ li{
     top: 0;
     left: 0;
     background-color: rgb(0,0,0);
-    background-color: rgb(8, 8, 8);
+    background-color: rgba(0,0,0, 0.9);
     overflow-x: hidden;
     transition: 0.5s;
   }
@@ -267,32 +267,4 @@ li{
         display: block;
         transition: 0.3s;
           }
-.heading-column{
-    float: left;
-    width: 100%;
 }
-.heading-card{
-    background-color: #111;
-    padding-top: 2px;   
-    padding-left: 2px;
-    padding-bottom: 5px;
-    padding-right: 5px;
-}
-.heading-card h1{
-    color: rgb(0, 0, 0); 
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    padding: 10px;   
-}
-body{
-    background-image: url("valorant background.png");
-    background-size: cover;
-    background-position: center;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 0px;
-}
-  }
-
-
-
