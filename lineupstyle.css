@@ -203,3 +203,98 @@ li{
   .bind .maincard{
     background-image: url("bind.png");
   }
+
+
+
+
+  
+@media screen and (max-width: 480px){
+  body{
+      background-image: url("valorant background.png");
+      background-size: cover;
+      background-position: center;
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 0px;
+  }
+  
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+  
+
+  .logo{
+      display: none;
+  }
+  .menu-bar{
+      display: none;
+      
+      
+      }
+  .card h1{
+      color: white; 
+      font-size: 10px;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+      padding: 10px; 
+          
+      }
+  /* Mobile Menu */
+   .lines{
+      font-size: 60px;
+      cursor: pointer;
+      margin-top: 1%;
+      margin-left: 80.5%;
+      display: block;
+      color: white;
+        }
+  .overlay .closebtn {
+      position: absolute;
+      top: -10px;
+      right: 10px;
+      font-size: 100px;
+        }
+      .overlay a {
+       padding: 8px;
+      text-decoration: none;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 350%;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+        }
+        .valorantlogo{
+          display:block;
+          width: 55px;
+          height: 55px;
+          background-color: white;
+          padding: 10px;
+          cursor: pointer;
+          position: absolute;
+          top: 20px;
+          left: 20px;
+      }
+.heading-column{
+  float: left;
+  width: 100%;
+}
+.heading-card{
+  background-color: #111;
+  padding-top: 2px;   
+  padding-left: 2px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+}
+.heading-card h1{
+  color: rgb(0, 0, 0); 
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 10px;   
+}
+
+
+
+}
