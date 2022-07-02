@@ -203,6 +203,9 @@ li{
   .bind .maincard{
     background-image: url("bind.png");
   }
+  .pearl .maincard{
+    background-image: url("pearl.png");
+  }
 
 
 
